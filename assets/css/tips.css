@@ -1,0 +1,72 @@
+.tips form{
+  display: block;
+}
+.tips p{
+  margin-bottom: 10px;
+  color: var(--DarkestGrayishCyan);
+}
+.tips input[type=text]{
+  outline: none;
+  border: 2px solid var(--LightGrayishCyan);
+  border-radius: 5px;
+  padding: 0px 10px;
+  background-color: var(--LightGrayishCyan);
+  text-align: right;
+  width: 95%;
+  color: var(--VeryDarkCyan);
+  font-weight: 700;
+}
+.tips input[type=text]:focus{
+  border-color: var(--StrongCyan)
+}
+
+.tips .bill,
+.tips .tip{
+  margin-bottom: 40px;
+}
+
+/* bill */
+.tips .bill #input-bill{
+
+}
+
+/* people */
+.tips .people #input-people{
+  
+}
+
+
+/* tip */
+.tips .tip .tip-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.tips .tip input[type=radio]{
+  opacity: 0;
+  visibility: hidden;
+}
+.tips .tip label{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  margin-left: -28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--VeryDarkCyan);
+  color: var(--White);
+  border-radius: 5px;
+  transform: all ease .5s;
+}
+.tips .tip input[type=radio]:checked + label{
+  background-color: var(--StrongCyan);
+  color: var(--VeryDarkCyan);
+}
+
+.tips .tip .tip-grid input[type=text]{
+  width: 85%;
+  padding-right: 10px;
+  text-align: center;
+  font-weight: 700;
+}

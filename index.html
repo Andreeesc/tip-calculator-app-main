@@ -7,12 +7,87 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
   <title>Frontend Mentor | Tip calculator app</title>
 
-  <link rel="stylesheet" href="./assets/css/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/tips.css">
+  <link rel="stylesheet" href="./assets/css/results.css">
 
 </head>
 <body>
 
+  <section>
 
+    <div class="tips">
+      <form>
+
+        <div class="bill">
+          <p>Bill</p>
+          <input type="text" name="input-bill" id="input-bill" placeholder="0">
+        </div>
+
+        <div class="tip">
+          <p>Select Tip %</p>
+
+          <div class="tip-grid">
+            <div>
+              <input type="radio" name="tip" id="cinco" value="5">
+              <label for="cinco">5%</label>
+            </div>
+            <div>
+              <input type="radio" name="tip" id="dez" value="10">
+              <label for="dez">10%</label>
+            </div>
+            <div>
+              <input type="radio" name="tip" id="quinze" value="15">
+              <label for="quinze">15%</label>
+            </div>
+            <div>
+              <input type="radio" name="tip" id="vinta-e-cinco" value="25">
+              <label for="vinta-e-cinco">25%</label>
+            </div>
+            <div>
+              <input type="radio" name="tip" id="cinquenta" value="50">
+              <label for="cinquenta">50%</label>
+            </div>
+            <input type="text" name="custom" id="custom" placeholder="Custom">
+          </div>
+          
+        </div>
+
+        <div class="people">
+          <p>Number of People</p>
+          <input type="text" name="input-people" id="input-people" placeholder="0">
+        </div>
+
+      </form>
+    </div>
+
+    <div class="result">
+      <div>
+        <div class="tip-amount">
+          <div>
+            <p>Tip Amount</p>
+            <span>/ person</span>
+          </div>
+          <h2>$0.00</h2>
+        </div>
+
+        <div class="tip-total">
+          <div>
+            <p>Total</p>
+            <span>/ person</span>
+          </div>
+          <h2>$0.00</h2>
+        </div>
+      </div>
+
+      <button class="reset" type="reset" disabled="disabled">Reset</button>
+    </div>
+
+  </section>
 
 </body>
 </html>

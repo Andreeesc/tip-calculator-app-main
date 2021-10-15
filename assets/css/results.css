@@ -1,0 +1,48 @@
+.result{
+  background-color: var(--VeryDarkCyan);
+  padding: 40px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.result p{
+  color: var(--White);
+}
+.result span{
+  color: var(--LightGrayishCyan);
+  font-size: 18px;
+}
+
+
+/* tip-amount / tip-total */
+.result .tip-amount,
+.result .tip-total{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result .tip-amount h2,
+.result .tip-total h2{
+  color: var(--StrongCyan);
+  font-size: 2em;
+  font-weight: 700;
+}
+
+
+/* reset */
+.result .reset{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--VeryDarkCyan);
+  color: var(--DarkestGrayishCyan);
+  filter: brightness(1.2);
+}
