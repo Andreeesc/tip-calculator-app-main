@@ -25,7 +25,7 @@
 
         <div class="bill">
           <p>Bill</p>
-          <input type="text" name="input-bill" id="input-bill" placeholder="0">
+          <input type="text" name="input-bill" id="input-bill" placeholder="0" onkeyup="captureData()">
         </div>
 
         <div class="tip">
@@ -33,23 +33,23 @@
 
           <div class="tip-grid">
             <div>
-              <input type="radio" name="tip" id="cinco" value="5">
+              <input type="radio" name="tip" id="cinco" value="5" onclick="captureData()">
               <label for="cinco">5%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="dez" value="10">
+              <input type="radio" name="tip" id="dez" value="10" onclick="captureData()">
               <label for="dez">10%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="quinze" value="15">
+              <input type="radio" name="tip" id="quinze" value="15" onclick="captureData()">
               <label for="quinze">15%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="vinta-e-cinco" value="25">
+              <input type="radio" name="tip" id="vinta-e-cinco" value="25" onclick="captureData()">
               <label for="vinta-e-cinco">25%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="cinquenta" value="50">
+              <input type="radio" name="tip" id="cinquenta" value="50" onclick="captureData()">
               <label for="cinquenta">50%</label>
             </div>
             <input type="text" name="custom" id="custom" placeholder="Custom">
@@ -59,7 +59,7 @@
 
         <div class="people">
           <p>Number of People</p>
-          <input type="text" name="input-people" id="input-people" placeholder="0">
+          <input type="text" name="input-people" id="input-people" placeholder="0" onkeyup="captureData()">
         </div>
 
       </form>
@@ -89,5 +89,6 @@
 
   </section>
 
+  <script src="./assets/js/tips.js"></script>
 </body>
 </html>
