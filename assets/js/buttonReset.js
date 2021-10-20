@@ -1,9 +1,12 @@
+// reset
 const buttonReset = document.querySelector('.reset')
 
 function clear(){
   buttonReset.addEventListener('click', ()=>{
     bill.value = ''
     people.value = ''
+    tipAmout.innerHTML = '$0.00'
+    total.innerHTML = '$0.00'
     buttonReset.disabled = true
   })
 }
