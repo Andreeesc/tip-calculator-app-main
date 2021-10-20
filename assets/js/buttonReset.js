@@ -5,6 +5,7 @@ function clear(){
   buttonReset.addEventListener('click', ()=>{
     bill.value = ''
     people.value = ''
+    customTip.value = ''
     tipAmout.innerHTML = '$0.00'
     total.innerHTML = '$0.00'
     buttonReset.disabled = true
