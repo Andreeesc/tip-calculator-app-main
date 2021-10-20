@@ -5,6 +5,7 @@ function clear(){
   buttonReset.addEventListener('click', ()=>{
     bill.value = ''
     people.value = ''
+    errorPeople.style.display = 'none'
     customTip.value = ''
     tipAmout.innerHTML = '$0.00'
     total.innerHTML = '$0.00'

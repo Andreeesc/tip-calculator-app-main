@@ -5,7 +5,8 @@
   margin-bottom: 10px;
   color: var(--DarkestGrayishCyan);
 }
-.tips input[type=text]{
+.tips input[type=text], 
+.tips input[type=number]{
   outline: none;
   border: 2px solid var(--LightGrayishCyan);
   border-radius: 5px;
@@ -16,7 +17,8 @@
   color: var(--VeryDarkCyan);
   font-weight: 700;
 }
-.tips input[type=text]:focus{
+.tips input[type=text]:focus,
+.tips input[type=number]:focus{
   border-color: var(--StrongCyan)
 }
 
@@ -25,14 +27,20 @@
   margin-bottom: 40px;
 }
 
-/* bill */
-.tips .bill #input-bill{
-
+.tips .bill,
+.tips .people{
+  position: relative;
 }
 
 /* people */
-.tips .people #input-people{
-  
+.tips .error{
+  display: none;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  text-align: right;
+  color: red;
+  font-size: 18px;
 }
 
 
