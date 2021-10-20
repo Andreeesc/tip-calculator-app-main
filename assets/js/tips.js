@@ -8,14 +8,14 @@ const tipAmout = document.querySelector('.tip-amount h2')
 const total = document.querySelector('.tip-total h2')
 
 
-function captureData(){
+function captureData(){  
   reset()
   
-  const tip = document.querySelector('input[name=tip]:checked').value
+  const tipValue = document.querySelector('input[name=tip]:checked').value
   const billValue = bill.value
   const peopleValue = people.value
 
-  const tipAmoutValue =  ((tip * billValue) / 100) / peopleValue
+  const tipAmoutValue =  ((tipValue * billValue) / 100) / peopleValue
   const totalValue = (billValue / peopleValue) + tipAmoutValue
 
   if(peopleValue != 0 || peopleValue != ''){
