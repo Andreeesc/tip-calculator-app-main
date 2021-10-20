@@ -42,7 +42,13 @@
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
+  background-color: var(--StrongCyan);
+  cursor: pointer;
+  transition: all ease .5s;
+}
+.result .reset:disabled{
   background-color: var(--VeryDarkCyan);
   color: var(--DarkestGrayishCyan);
   filter: brightness(1.2);
+  cursor: auto;
 }

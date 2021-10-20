@@ -4,6 +4,8 @@ const tipAmout = document.querySelector('.tip-amount h2')
 const total = document.querySelector('.tip-total h2')
 
 function captureData(){
+  reset()
+  
   const tip = document.querySelector('input[name=tip]:checked').value
   const billValue = bill.value
   const peopleValue = people.value
