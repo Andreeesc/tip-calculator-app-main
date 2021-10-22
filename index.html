@@ -25,7 +25,7 @@
 
         <div class="bill">
           <p>Bill</p>
-          <input type="text" name="input-bill" id="input-bill" placeholder="0" onkeyup="captureData()">
+          <input type="text" name="input-bill" id="input-bill" placeholder="0" onkeyup="billCalc()">
         </div>
 
         <div class="tip">
@@ -33,26 +33,26 @@
 
           <div class="tip-grid">
             <div>
-              <input type="radio" name="tip" id="cinco" value="5" onclick="captureData()">
+              <input type="radio" name="tip" id="cinco" value="5" onclick="billCalc()">
               <label for="cinco">5%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="dez" value="10" onclick="captureData()">
+              <input type="radio" name="tip" id="dez" value="10" onclick="billCalc()">
               <label for="dez">10%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="quinze" value="15" onclick="captureData()">
+              <input type="radio" name="tip" id="quinze" value="15" onclick="billCalc()">
               <label for="quinze">15%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="vinta-e-cinco" value="25" onclick="captureData()">
+              <input type="radio" name="tip" id="vinta-e-cinco" value="25" onclick="billCalc()">
               <label for="vinta-e-cinco">25%</label>
             </div>
             <div>
-              <input type="radio" name="tip" id="cinquenta" value="50" onclick="captureData()">
+              <input type="radio" name="tip" id="cinquenta" value="50" onclick="billCalc()">
               <label for="cinquenta">50%</label>
             </div>
-            <input type="text" name="custom" id="custom" placeholder="Custom" onkeyup="captureData()">
+            <input type="text" name="custom" id="custom" placeholder="Custom" onkeyup="billCalc()">
           </div>
           
         </div>
@@ -60,7 +60,7 @@
         <div class="people">
           <p>Number of People</p>
           <span class="error">Can't be zero</span>
-          <input type="number" name="input-people" id="input-people" placeholder="0" onkeyup="captureData()">
+          <input type="number" name="input-people" id="input-people" placeholder="0" onkeyup="billCalc()">
         </div>
 
       </form>

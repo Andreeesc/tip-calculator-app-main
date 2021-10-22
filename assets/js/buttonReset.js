@@ -7,7 +7,7 @@ function clear(){
     people.value = ''
     errorPeople.style.display = 'none'
     customTip.value = ''
-    tipAmout.innerHTML = '$0.00'
+    tipAmount.innerHTML = '$0.00'
     total.innerHTML = '$0.00'
     buttonReset.disabled = true
   })
