@@ -1,5 +1,8 @@
 # Frontend Mentor - Tip calculator app
 
+This project can be seen at: [https://andreeesc.github.io/tip-calculator-app-main/](https://andreeesc.github.io/tip-calculator-app-main/)
+
+
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
@@ -64,6 +67,8 @@ We strongly recommend overwriting this `README.md` with a custom one. We've prov
 The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
 
 Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+
+
 
 ## Submitting your solution
 
