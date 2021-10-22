@@ -24,6 +24,11 @@ body{
   padding-top: 80px;
   background-color: var(--LightGrayishCyan);
 }
+@media (max-width:767px){
+  body{
+    padding: 20px;
+  }
+}
 
 section{
   padding: 40px;
@@ -32,4 +37,10 @@ section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
+}
+@media (max-width:767px){
+  section{
+    display: block;
+    padding: 20px;
+  }
 }

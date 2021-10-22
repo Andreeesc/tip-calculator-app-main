@@ -6,12 +6,27 @@
   flex-direction: column;
   justify-content: space-between;
 }
+@media(max-width:767px){
+  .result{
+    padding: 20px;
+  }
+}
 .result p{
   color: var(--White);
+}
+@media(max-width:767px){
+  .result p{
+    font-size: .7rem;
+  }
 }
 .result span{
   color: var(--LightGrayishCyan);
   font-size: 18px;
+}
+@media(max-width:767px){
+  .result span{
+    font-size: .5rem;
+  }
 }
 
 
@@ -28,6 +43,12 @@
   color: var(--StrongCyan);
   font-size: 2em;
   font-weight: 700;
+}
+@media(max-width:767px){
+  .result .tip-amount h2,
+  .result .tip-total h2{
+    font-size: 1.5em;
+  }
 }
 
 

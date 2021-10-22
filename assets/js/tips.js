@@ -25,12 +25,12 @@ function billCalc(){
 
     inputPeople.style.borderColor = 'transparent'
     errorPeople.style.display = 'none'
-    tipAmout.innerHTML = `$${tipAmoutValue.toFixed(2)}`  
+    tipAmount.innerHTML = `$${tipAmoutValue.toFixed(2)}`  
     total.innerHTML = `$${totalValue.toFixed(2)}`
   } else{
     inputPeople.style.borderColor = 'red'
     errorPeople.style.display = 'inline-block'
-    tipAmout.innerHTML = `$0.00`  
+    tipAmount.innerHTML = `$0.00`  
     total.innerHTML = `$0.00`
   }
 }

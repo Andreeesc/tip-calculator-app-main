@@ -1,3 +1,8 @@
+@media (max-width:767px){
+  .tips{
+    margin-bottom: 40px;
+  }
+}
 .tips form{
   display: block;
 }
@@ -17,6 +22,13 @@
   color: var(--VeryDarkCyan);
   font-weight: 700;
 }
+@media (max-width:767px){
+  .tips input[type=text], 
+  .tips input[type=number]{
+  width: 92%;
+}
+}
+
 .tips input[type=text]:focus,
 .tips input[type=number]:focus{
   border-color: var(--StrongCyan)
@@ -50,6 +62,12 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+@media (max-width:767px){
+  .tips .tip .tip-grid{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
 .tips .tip input[type=radio]{
   opacity: 0;
   visibility: hidden;
@@ -77,4 +95,9 @@
   padding-right: 10px;
   text-align: center;
   font-weight: 700;
+}
+@media(max-width:767px){
+  .tips .tip .tip-grid input[type=text]{
+    width: 83%;
+  }
 }
